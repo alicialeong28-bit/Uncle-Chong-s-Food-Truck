@@ -296,3 +296,29 @@ form{
     font-size:18px;
 
 }
+
+.hero{
+
+    display:flex;
+
+    justify-content:space-around;
+
+    align-items:center;
+
+    padding:50px;
+
+}
+
+.hero-image img{
+
+    width:450px;
+
+    border-radius:20px;
+
+}
+
+.hero-text{
+
+    width:45%;
+
+}
