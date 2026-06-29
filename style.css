@@ -316,7 +316,13 @@ form{
     border-radius:20px;
 
 }
-
+.foodtruck{
+    width: 600px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
+}
 .hero-text{
 
     width:45%;
