@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🛒 Uncle Chong Food Truck</h1>
+        <h2>Your Cart</h2>
+    </header>
+
+    <div class="cart-container">
+
+        <table border="1" width="80%" align="center">
+
+            <thead>
+
+                <tr>
+                    <th>Food</th>
+                    <th>Price (RM)</th>
+                    <th>Quantity</th>
+                    <th>Subtotal (RM)</th>
+                    <th>Action</th>
+                </tr>
+
+            </thead>
+
+            <tbody id="cartItems">
+
+            </tbody>
+
+        </table>
+
+        <br>
+
+        <h2 id="totalPrice">
+            Total: RM0.00
+        </h2>
+
+        <br>
+
+        <button onclick="clearCart()">
+            🗑 Clear Cart
+        </button>
+
+        <a href="checkout.html">
+            <button>
+                Proceed to Checkout
+            </button>
+        </a>
+
+        <br><br>
+
+        <a href="menu.html">
+            <button>
+                ⬅ Continue Ordering
+            </button>
+        </a>
+
+    </div>
+
+    <script src="./script.js"></script>
+
+    <script>
+        displayCart();
+    </script>
+
+</body>
+
+</html>

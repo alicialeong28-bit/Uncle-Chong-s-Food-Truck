@@ -1,0 +1,68 @@
+<div class="payment-container">
+
+    <h2 id="paymentTotal">
+    Total: RM0.00
+</h2>
+
+    <hr>
+
+    <h3>Select Payment Method</h3>
+    
+    <link rel="stylesheet" href="style.css">
+
+    <input type="radio"
+       id="tng"
+       name="payment"
+       value="Touch 'n Go"
+       onclick="showQR()">
+
+    <label for="tng">Touch 'n Go / DuitNow</label>
+
+    <div class="payment-section">
+
+    <img src="C:\Users\ASUS\Downloads\WhatsApp Image 2026-06-29 at 10.46.40 AM.jpeg" class="qr-code" alt="Touch 'n Go QR Code">
+
+    <div class="payment-details">
+        <h2>Scan to Pay</h2>
+        <p>Please scan the QR code using Touch 'n Go or DuitNow.</p>
+    </div>
+
+</div>
+
+
+<br><br>
+
+
+
+<input type="radio"
+       id="cash"
+       name="payment"
+       value="Cash"
+       onclick="showQR()">
+
+<label for="cash">Cash on Pickup</label>
+
+<br><br>
+
+<button type="button" onclick="placeOrder()">
+    Place Order
+</button>
+
+<br><br>
+
+<a href="checkout.html">
+    <button type="button">
+        ⬅ Back
+    </button>
+</a>
+
+</div>
+
+<script src="./script.js"></script>
+
+<script>
+    displayPaymentTotal();
+</script>
+
+</body>
+</html>

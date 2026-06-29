@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Checkout</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <h1>🍜 Uncle Chong Food Truck</h1>
+
+    <h2>Checkout</h2>
+
+    <div class="checkout-container">
+
+        <form action="payment.html">
+
+            <label><b>Customer Name</b></label><br>
+
+            <input
+                type="text"
+                id="customerName"
+                placeholder="Enter your name"
+                required>
+
+            <br><br>
+
+            <label><b>Student ID</b></label><br>
+
+            <input
+                type="text"
+                id="studentID"
+                placeholder="Enter your student ID"
+                required>
+
+            <br><br>
+
+            <label><b>Pickup Date</b></label><br>
+
+            <input
+                type="date"
+                id="pickupDate"
+                required>
+
+            <br><br>
+
+            <label><b>Pickup Time</b></label><br>
+
+            <input
+                type="time"
+                id="pickupTime"
+                required>
+
+            <br><br>
+
+            <label><b>Special Request</b></label><br>
+
+            <textarea
+                id="remarks"
+                rows="4"
+                cols="40"
+                placeholder="Example: No chilli, extra sauce..."></textarea>
+
+            <br><br>
+
+            <h2 id="checkoutTotal">
+                Total: RM0.00
+            </h2>
+
+            <br>
+
+            <button type="submit" onclick="saveCustomer()">
+                Continue to Payment
+            </button>
+
+        </form>
+
+        <br>
+
+        <a href="cart.html">
+            <button>
+                ⬅ Back to Cart
+            </button>
+        </a>
+
+    </div>
+
+<script src="./script.js"></script>
+
+<script>
+
+displayCheckoutTotal();
+
+</script>
+
+</body>
+
+</html>

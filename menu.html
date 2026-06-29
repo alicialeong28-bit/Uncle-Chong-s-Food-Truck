@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Uncle Chong's Menu</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>🍜 Uncle Chong Food Truck</h1>
+
+<div class="menu">
+
+    <!-- RICE -->
+    <div class="food">
+
+        <img src="https://static01.nyt.com/images/2018/02/21/dining/00RICEGUIDE8/00RICEGUIDE8-jumbo.jpg" width="200">
+
+        <h2>Rice</h2>
+
+        <p>Small-RM1.00</p>
+
+        <button onclick="decrease('rice')">-</button>
+
+        <input
+            type="text"
+            id="rice"
+            value="1"
+            readonly>
+
+        <button onclick="increase('rice')">+</button>
+
+        <br><br>
+
+        <button onclick="addToCart('Rice',2,'rice')">
+            Add to Cart
+        </button>
+
+    </div>
+
+    <!-- SOYA CHICKEN -->
+    <div class="food">
+
+        <img src="https://www.ohmyfoodrecipes.com/wp-content/uploads/2021/04/soy-sauce-chicken-wings-front-with-towel.jpg" width="200">
+
+        <h2>Soya Chicken</h2>
+
+        <p>RM2.00</p>
+
+        <button onclick="decrease('soya')">-</button>
+
+        <input
+            type="text"
+            id="soya"
+            value="1"
+            readonly>
+
+        <button onclick="increase('soya')">+</button>
+
+        <br><br>
+
+        <button onclick="addToCart('Soya Chicken',2,'soya')">
+            Add to Cart
+        </button>
+
+    </div>
+
+    <!-- NESTUM CHICKEN -->
+    <div class="food">
+
+        <img src="https://static.wixstatic.com/media/da0dac_7d214e4c0745414e89db44dde52d05e8~mv2.jpg/v1/fill/w_568,h_758,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/da0dac_7d214e4c0745414e89db44dde52d05e8~mv2.jpg" width="200">
+
+        <h2>Nestum Chicken</h2>
+
+        <p>RM2.00</p>
+
+        <button onclick="decrease('nestum')">-</button>
+
+        <input
+            type="text"
+            id="nestum"
+            value="1"
+            readonly>
+
+        <button onclick="increase('nestum')">+</button>
+
+        <br><br>
+
+        <button onclick="addToCart('Nestum Chicken',2,'nestum')">
+            Add to Cart
+        </button>
+
+    </div>
+
+    <!-- MALA CHICKEN -->
+    <div class="food">
+
+        <img src="https://cdn-akamai.lkk.com/-/media/spicy-chicken-600x465.jpg?h=1187&iar=0&w=1531&hash=7E91E61391AF7D12351577ECA196F10B" width="200">
+
+        <h2>Mala Chicken</h2>
+
+        <p>RM2.00</p>
+
+        <button onclick="decrease('mala')">-</button>
+
+        <input
+            type="text"
+            id="mala"
+            value="1"
+            readonly>
+
+        <button onclick="increase('mala')">+</button>
+
+        <br><br>
+
+        <button onclick="addToCart('Mala Chicken',2,'mala')">
+            Add to Cart
+        </button>
+
+    </div>
+
+    <!-- BROCCOLI -->
+    <div class="food">
+
+        <img src="https://1.bp.blogspot.com/-i211CV2W_d0/VrDsNbMN4OI/AAAAAAAARzs/QaAsoeb5QfE/s1600/stir-fried%2Bbroccoli%2Band%2Bmushroom.jpg" width="200">
+
+        <h2>Broccoli</h2>
+
+        <p>RM2.00</p>
+
+        <button onclick="decrease('broccoli')">-</button>
+
+        <input
+            type="text"
+            id="broccoli"
+            value="1"
+            readonly>
+
+        <button onclick="increase('broccoli')">+</button>
+
+        <br><br>
+
+        <button onclick="addToCart('Broccoli',2,'broccoli')">
+            Add to Cart
+        </button>
+
+    </div>
+
+    <!-- CABBAGE -->
+    <div class="food">
+
+        <img src="https://images.getrecipekit.com/20220921172655-stir-fry-cabbage-3.png?aspect_ratio=1:1&quality=90&" width="200">
+
+        <h2>Cabbage</h2>
+
+        <p>RM2.00</p>
+
+        <button onclick="decrease('cabbage')">-</button>
+
+        <input
+            type="text"
+            id="cabbage"
+            value="1"
+            readonly>
+
+        <button onclick="increase('cabbage')">+</button>
+
+        <br><br>
+
+        <button onclick="addToCart('Cabbage',2,'cabbage')">
+            Add to Cart
+        </button>
+
+    </div>
+
+    <!-- EGG -->
+    <div class="food">
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/f0/Fried_Egg_2.jpg" width="200">
+
+        <h2>Egg</h2>
+
+        <p>RM1.00</p>
+
+        <button onclick="decrease('egg')">-</button>
+
+        <input
+            type="text"
+            id="egg"
+            value="1"
+            readonly>
+
+        <button onclick="increase('egg')">+</button>
+
+        <br><br>
+
+        <button onclick="addToCart('Egg',1,'egg')">
+            Add to Cart
+        </button>
+
+    </div>
+
+</div>
+
+<br><br>
+
+<a href="cart.html">
+    <button>🛒 View Cart</button>
+</a>
+
+<script src="./script.js"></script>
+
+</body>
+</html>
